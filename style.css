@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+    background-color: #eaeaea;
+    
+}
+
+.profile{
+    width: 800px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(#b68d2c 0%, #eaeaea 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.line{
+    width: 100px;
+    height: 5px;
+    background-color: #b68d2c;
+    margin: 8px auto;
+}
+
+#menu{
+    list-style: none;
+    font-family: 'Bebas Neue', cursive;
+    position: fixed;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: gold;
+    border-radius: 10px;
+}
+
+.links{
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    color: darkmagenta;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links:hover{
+    background-color: rgb(245, 245, 249);
+}
+
+.contacto_1 h3{
+    display: inline;    
+}
+
+li, h3{
+
+    background-color: coral;
+}
